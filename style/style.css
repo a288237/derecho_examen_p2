@@ -1,11 +1,53 @@
-.panel, .prom {
-    padding: 5px;
+h1{
+	text-align: center;
+	padding-top: 1%;
+}
+
+h2{
+	font-size: 20px;
+}
+
+#wrapper{
+	width: 90%;
+	margin: 1% 5% 0 7%;
+}
+
+#prom3 h2{
+padding-bottom: 5.5%;
+}
+
+.prom {
     text-align: center;
     background-color: #e5eecc;
     border: solid 1px #c3c3c3;
 }
 
+p{
+	text-align: center;
+}
+
+li{
+	font-size: 15px;
+	padding: 5px;
+}
+
+.prom{
+	width: 30%;
+	display: inline-block;
+}
+
+.flecha{
+}
+
+.flecha:hover{
+	cursor: pointer;
+}
+
+#subpanel1, #subpanel2, #subpanel3{
+    display: inline-block;
+	width: 30%;
+}
+
 .panel {
-    padding: 50px;
-    display: none;
+	display: none;
 }
